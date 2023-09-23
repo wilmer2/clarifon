@@ -34,7 +34,7 @@ button {
   }
 }
 
-@media (width >= 900px) {
+@media (width >= 1268px) {
   .discount-btn-container {
     padding-top: 32px;
     padding-left: 40px;

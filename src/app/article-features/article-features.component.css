@@ -88,12 +88,15 @@
 
   .article-discount-info {
     margin-top: 32px;
-    margin-right: 0;
-    margin-left: 40px;
   }
 }
 
 @media (width >= 1268px) {
+  .article-discount-info {
+    margin-right: 0;
+    margin-left: 40px;
+  }
+
   .article-characteres {
     margin: 0;
     padding-top: 32px;
