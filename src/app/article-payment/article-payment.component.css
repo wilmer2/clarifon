@@ -2,10 +2,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 12px 19px 0 19px;
+  margin: 12px 20px 0 20px;
 
   padding-top: 8px;
   padding-bottom: 8px;
+  border: 1px solid #cfcfcf;
 }
 
 .article-encrypt-container {
@@ -16,9 +17,6 @@
   border-bottom: 1px solid #cfcfcf;
 }
 
-.article-payment {
-  border: 1px solid #cfcfcf;
-}
 .article-encrypt-item {
   padding-left: 12px;
   padding-right: 12px;
@@ -82,6 +80,7 @@
     align-items: stretch;
     flex-direction: row;
     padding: 12px 0;
+    margin-left: 40px;
   }
 
   .article-payment-cards {
