@@ -81,6 +81,7 @@
     flex-direction: row;
     padding: 12px 0;
     margin-left: 40px;
+    margin-right: 0;
   }
 
   .article-payment-cards {
