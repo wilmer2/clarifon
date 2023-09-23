@@ -58,6 +58,13 @@
   text-align: center;
 }
 
+.step-circle-next span {
+  position: absolute;
+  left: 25%;
+  font-size: 14px;
+  font-family: "Manrope", sans-serif;
+}
+
 .step-description {
   margin-top: 8px;
   font-size: 12px;
@@ -87,6 +94,11 @@
     font-size: 20px;
   }
 
+  .step-circle-active span {
+    top: 5px;
+    left: 14px;
+  }
+
   .step-description {
     font-size: 20px;
   }
@@ -108,6 +120,7 @@
 
   .step-item {
     flex-direction: row;
+    align-items: normal;
     margin-right: 0;
   }
 
