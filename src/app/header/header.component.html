@@ -1,0 +1,43 @@
+<header class="section-container">
+  <div class="arrow-icon-container left d-lg-none">
+    <img
+      src="assets/icons/a.svg"
+      alt="Left Icon"
+      class="arrow-icon"
+      (click)="slidePrev()"
+    />
+  </div>
+  <div class="arrow-icon-container right d-lg-none">
+    <img
+      src="assets/icons/b.svg"
+      alt="Right Icon"
+      class="arrow-icon"
+      (click)="slideNext()"
+    />
+  </div>
+  <swiper #swiper [config]="config" [className]="'d-lg-none'">
+    <ng-container *ngFor="let item of items; index as i">
+      <ng-template swiperSlide>
+        <a href="#" class="menu-item">
+          <img [src]="item.source" [alt]="item.description" />
+          <span>
+            {{ item.title }}
+          </span>
+        </a>
+      </ng-template>
+    </ng-container>
+  </swiper>
+
+  <nav class="d-lg-block">
+    <ul>
+      <li *ngFor="let item of items">
+        <a href="#" class="menu-item">
+          <img [src]="item.source" [alt]="item.description" />
+          <span>
+            {{ item.title }}
+          </span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>

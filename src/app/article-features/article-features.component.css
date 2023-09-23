@@ -1,0 +1,96 @@
+.article-characteres {
+  margin-top: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.article-characteres-item {
+  margin-bottom: 16px;
+}
+
+.article-characteres-container-img {
+  width: 12px;
+}
+
+.article-characteres-img {
+  width: 100%;
+  height: auto;
+}
+
+.article-description {
+  margin-left: 12px;
+  color: #4d5254;
+
+  font-size: 12px;
+  font-family: "Manrope";
+  line-height: 160%;
+}
+
+.article-description span {
+  color: #4d5254;
+  font-weight: bold;
+}
+
+.article-discount-info {
+  display: flex;
+  align-items: center;
+  margin: 24px 20px 0 20px;
+  padding: 12px 16px;
+  border-radius: 14px;
+  background-color: #edf3fd;
+}
+
+.article-discount-container-img {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+
+.article-discount-img {
+  width: 100%;
+  height: 100%;
+}
+
+.article-discount-description {
+  color: #000000;
+  font-size: 14px;
+  font-family: "Manrope";
+
+  line-height: 140%;
+}
+
+.article-discount-description span {
+  color: #2c7ef8;
+}
+
+@media (width >= 900px) {
+  .article-description {
+    font-size: 16px;
+  }
+
+  .article-characteres-container-img {
+    padding-top: 2px;
+    width: 20px;
+  }
+
+  .article-characteres-item {
+    margin-bottom: 20px;
+  }
+
+  .article-characteres {
+    margin-top: 32px;
+  }
+
+  .article-discount-description {
+    font-size: 16px;
+  }
+
+  .article-discount-container-img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .article-discount-info {
+    margin-top: 32px;
+  }
+}

@@ -1,0 +1,29 @@
+/* .promotion-img-container {
+  max-width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 24px;
+}
+
+.promotion-img-container img {
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+} */
+
+@media (width >= 1268px) {
+  .large-img {
+    max-height: 100%;
+    width: auto;
+  }
+  .detail-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fafafa;
+  }
+}

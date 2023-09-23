@@ -1,1 +1,109 @@
-/* You can add global styles to this file, and also import other style files */
+@import "swiper/css/bundle";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+figure,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.d-xl-block {
+  display: none;
+}
+
+.d-xl-inline-block {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-lg-none {
+  display: block;
+}
+
+.d-xl-none {
+  display: block;
+}
+
+.d-tablet-block {
+  display: none;
+}
+
+.d-tablet-none {
+  display: block;
+}
+
+.d-lg-block {
+  display: none;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.section-container {
+  color: #ffffff;
+  background-color: #252f3d;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+@media (width >= 768px) {
+  .d-tablet-none {
+    display: none;
+  }
+
+  .d-tablet-block {
+    display: block;
+  }
+}
+
+@media (width >= 900px) {
+  .d-lg-none {
+    display: none;
+  }
+
+  .d-lg-block {
+    display: block;
+  }
+}
+
+@media (width >= 1268px) {
+  .d-xl-none {
+    display: none;
+  }
+
+  .d-xl-block {
+    display: block;
+  }
+
+  .d-xl-inline-block {
+    display: inline-block;
+  }
+}

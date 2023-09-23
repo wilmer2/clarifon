@@ -1,0 +1,41 @@
+.guarantee-container {
+  display: flex;
+  margin: 24px 20px 0 20px;
+}
+
+.guarantee-container-img {
+  height: 48px;
+  width: 48px;
+  margin-right: 16px;
+}
+
+.guarantee-description {
+  color: #4d5254;
+  font-family: "Manrope", sans-serif;
+  font-size: 12px;
+  line-height: 140%;
+}
+
+.guarantee-description span {
+  font-weight: 900;
+}
+
+@media (width >= 900px) {
+  .guarantee-description {
+    font-size: 16px;
+  }
+
+  .guarantee-container-img {
+    width: 88px;
+    height: 88px;
+  }
+
+  .guarantee-container-img img {
+    height: 88px;
+    width: 88px;
+  }
+
+  .guarantee-container {
+    margin-top: 32px;
+  }
+}
