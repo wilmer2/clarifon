@@ -61,7 +61,7 @@
 }
 
 .article-not-want {
-  margin-top: 12px;
+  padding-top: 12px;
   color: #f82c2c;
   font-size: 12px;
   font-family: "Manrope", sans-serif;
@@ -72,7 +72,7 @@
 
 @media (width >= 900px) {
   .article-not-want {
-    margin-top: 20px;
+    padding-top: 20px;
     font-size: 16px;
   }
 }
