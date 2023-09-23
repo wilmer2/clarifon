@@ -28,13 +28,25 @@
   }
 
   .guarantee-container-img {
-    width: 88px;
-    height: 88px;
+    width: 60px;
+    height: 60px;
   }
 
   .guarantee-container-img img {
-    height: 88px;
-    width: 88px;
+    height: 60px;
+    width: 60px;
+  }
+}
+
+@media (width >= 1268px) {
+  .guarantee-container-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .guarantee-container-img img {
+    height: 80px;
+    width: 80px;
   }
 
   .guarantee-container {
