@@ -23,12 +23,16 @@
 
   font-size: 12px;
   font-family: "Manrope";
-  line-height: 160%;
+  font-weight: 400;
+  line-height: 19.2px;
 }
 
 .article-description span {
   color: #4d5254;
-  font-weight: bold;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Manrope";
+  line-height: 19.2px;
 }
 
 .article-discount-info {
@@ -66,8 +70,13 @@
 @media (width >= 900px) {
   .article-description {
     font-size: 16px;
+    line-height: 25.6px;
   }
 
+  .article-description span {
+    font-size: 16px;
+    line-height: 25.6px;
+  }
   .article-characteres-container-img {
     padding-top: 2px;
     width: 20px;
