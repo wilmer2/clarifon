@@ -21,7 +21,7 @@
         <a href="#" class="menu-item">
           <img [src]="item.source" [alt]="item.description" />
           <span>
-            {{ item.title }}
+            {{ item.title.toUpperCase() }}
           </span>
         </a>
       </ng-template>
@@ -34,7 +34,7 @@
         <a href="#" class="menu-item">
           <img [src]="item.source" [alt]="item.description" />
           <span>
-            {{ item.title }}
+            {{ item.title.toUpperCase() }}
           </span>
         </a>
       </li>
