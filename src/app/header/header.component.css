@@ -55,6 +55,18 @@ a img {
   right: 20px;
 }
 
+@media (width >= 900px) {
+  li {
+    padding-right: 10px;
+  }
+}
+
+@media (width >= 980px) {
+  li {
+    padding-right: 0;
+  }
+}
+
 @media (width >= 1268px) {
   header {
     height: 50px;
