@@ -1,5 +1,5 @@
 .article-characteres {
-  margin-top: 24px;
+  padding-top: 24px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -77,10 +77,6 @@
     margin-bottom: 20px;
   }
 
-  .article-characteres {
-    margin-top: 32px;
-  }
-
   .article-discount-description {
     font-size: 16px;
   }
@@ -94,5 +90,14 @@
     margin-top: 32px;
     margin-right: 0;
     margin-left: 40px;
+  }
+}
+
+@media (width > 1268px) {
+  .article-characteres {
+    margin: 0;
+    padding-top: 32px;
+    padding-left: 40px;
+    padding-right: 0;
   }
 }
