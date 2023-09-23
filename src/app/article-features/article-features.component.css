@@ -92,5 +92,7 @@
 
   .article-discount-info {
     margin-top: 32px;
+    margin-right: 0;
+    margin-left: 40px;
   }
 }
