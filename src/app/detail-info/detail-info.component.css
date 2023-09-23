@@ -15,7 +15,7 @@
 }
 
 .article-container {
-  margin-top: 24px;
+  padding-top: 24px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -34,7 +34,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 11px;
+  padding-top: 9px;
 }
 
 .article-title {
@@ -49,6 +49,7 @@
   font-size: 10px;
   font-family: "Manrope", sans-serif;
   font-weight: 600;
+  text-decoration: line-through;
 }
 
 .article-price-discount {
@@ -59,11 +60,12 @@
 }
 
 .article-starts {
-  margin-top: 10px;
+  padding-top: 12px;
 }
 
 .article-starts-container {
   display: flex;
+  margin-left: 2px;
   width: 9.93px;
   height: 9.48px;
 }
@@ -74,12 +76,12 @@
 }
 
 .article-stock {
-  margin-top: 10px;
+  padding-top: 12px;
 }
 
 .article-stock p {
   padding: 0;
-  margin-left: 20px;
+  margin-left: 26px;
   color: #37465a;
   font-size: 12px;
   font-weight: 300;
@@ -142,7 +144,7 @@
 
 @media (width >= 900px) {
   .article-header {
-    margin-top: 0;
+    padding-top: 0;
     align-items: flex-start;
   }
 
@@ -158,9 +160,12 @@
     font-size: 22px;
   }
 
-  .article-starts,
+  .article-starts {
+    padding-top: 15px;
+  }
+
   .article-stock {
-    margin-top: 15px;
+    padding-top: 15px;
   }
 
   .article-starts-container {
@@ -198,5 +203,10 @@
   .promotion {
     margin: 0;
     font-size: 32px;
+  }
+  .article-container {
+    padding-top: 32px;
+    padding-left: 40px;
+    padding-right: 0;
   }
 }
