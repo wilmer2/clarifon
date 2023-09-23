@@ -33,34 +33,37 @@
 .article-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding-top: 9px;
+  padding-top: 11px;
 }
 
 .article-title {
   color: #000000;
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Manrope";
+  font-weight: 400;
+  line-height: 19.6px;
 }
 
 .article-price {
   margin-right: 8px;
   color: #969696;
   font-size: 10px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Manrope";
   font-weight: 600;
   text-decoration: line-through;
+  line-height: 13.66px;
 }
 
 .article-price-discount {
   color: #2c7ef8;
   font-size: 14px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Manrope";
   font-weight: 600;
+  line-height: 19.6px;
 }
 
 .article-starts {
-  padding-top: 12px;
+  padding-top: 10px;
 }
 
 .article-starts-container {
@@ -76,15 +79,17 @@
 }
 
 .article-stock {
-  padding-top: 12px;
+  padding-top: 10px;
 }
 
 .article-stock p {
   padding: 0;
+  margin: 0;
   margin-left: 26px;
   color: #37465a;
   font-size: 12px;
   font-weight: 300;
+  line-height: 16.39px;
 }
 
 .article-radio-container {
@@ -150,14 +155,23 @@
 
   .article-title {
     font-size: 20px;
+    font-weight: 400;
+    font-family: "Manrope";
+    line-height: 28px;
   }
 
   .article-price {
     font-size: 16px;
+    font-weight: 600;
+    font-family: "Manrope";
+    line-height: 21.86px;
   }
 
   .article-price-discount {
     font-size: 22px;
+    font-weight: 600;
+    font-family: "Manrope";
+    line-height: 30.8px;
   }
 
   .article-starts {
@@ -177,6 +191,9 @@
   .article-stock p {
     margin-left: 24px;
     font-size: 16px;
+    font-weight: 300;
+    font-family: Manrope;
+    line-height: 21.86px;
   }
 
   .article-image-container {
