@@ -4,10 +4,10 @@ h1 {
   max-width: 400px;
   color: #000000;
   font-family: "Manrope", sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 32px;
   text-align: center;
-  line-height: 140%;
+  line-height: 44.8px;
 }
 
 p {
@@ -17,13 +17,28 @@ p {
 
   color: #4d5254;
   font-family: "Manrope", sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   text-align: center;
-  line-height: 140%;
+  line-height: 22.4px;
 }
 
 @media (width >= 768px) {
+  h1 {
+    padding-top: 21px;
+    font-size: 48px;
+    line-height: 48px;
+    max-width: 100%;
+  }
+
+  p {
+    max-width: 100%;
+    font-size: 24px;
+    text-align: left;
+  }
+}
+
+@media (width >= 1268px) {
   h1 {
     padding-top: 22px;
     font-size: 48px;
