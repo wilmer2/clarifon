@@ -39,7 +39,7 @@ img {
   .clarifon-container {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 18px;
 
     height: 36px;
     width: 192px;
@@ -50,13 +50,21 @@ img {
   }
 }
 
-@media (width >= 1220px) {
+@media (width >= 900px) {
   .clarifon-container {
+    left: 18px;
+  }
+}
+
+@media (width >= 1268px) {
+  /* .clarifon-container {
     position: absolute;
     top: 0;
     left: -15px;
+  } */
+  .clarifon-container {
+    left: -1px;
   }
-
   .backrest-container {
     position: relative;
     padding: 0;
