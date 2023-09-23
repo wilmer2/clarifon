@@ -42,9 +42,10 @@ footer {
 }
 
 @media (width >= 900px) {
-  footer {
+  .footer-content {
     display: flex;
     align-items: start;
+
     justify-content: space-between;
     padding: 33px;
     font-size: 16px;
@@ -71,5 +72,14 @@ footer {
 
   .spacer {
     padding-top: 102px;
+  }
+}
+
+@media (width >= 1268px) {
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
