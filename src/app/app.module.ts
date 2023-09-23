@@ -17,8 +17,9 @@ import { DiscountBtnComponent } from './discount-btn/discount-btn.component';
 import { ArticlePaymentComponent } from './article-payment/article-payment.component';
 import { GuaranteeComponent } from './guarantee/guarantee.component';
 import { CommentComponent } from './comment/comment.component';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, BackrestComponent, HeroComponent, StepComponent, DetailComponent, DetailInfoComponent, MlRadioComponent, ArticleFeaturesComponent, DiscountBtnComponent, ArticlePaymentComponent, GuaranteeComponent, CommentComponent],
+  declarations: [AppComponent, HeaderComponent, BackrestComponent, HeroComponent, StepComponent, DetailComponent, DetailInfoComponent, MlRadioComponent, ArticleFeaturesComponent, DiscountBtnComponent, ArticlePaymentComponent, GuaranteeComponent, CommentComponent, FooterComponent],
   imports: [BrowserModule, CommonModule, SwiperModule],
   providers: [],
   bootstrap: [AppComponent],
